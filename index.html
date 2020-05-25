@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton-framework/1.1.1/skeleton.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="row">
+      <div class="twelve columns box">
+        <h3>Calculate bill</h3>
+        Enter a string with 'call' or 'sms' seperated by commas. When the Calculate button is pressed show the total
+        phone bill for the string entered.
+
+        <div class="">
+          <i>Calls costs R2.75 and a SMS R0.75</i>
+        </div>
+        <br>
+        <div class="">
+          <i>If the total cost exceed R20.00 show the total cost in orange, if over R30 show it in red.</i>
+        </div>
+
+        <hr>
+
+        <!-- billString calculateBtn billTotal -->
+
+
+        <div class="row">
+          <div class="four columns">
+            <strong>Total amount:</strong>
+            <span class="total">R<span class="billTotal">0.00</span> </span>
+          </div>
+          <div class="six columns">
+            <button class="calculateBtn" on type="button" name="button">Calculate</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="six columns">
+            <strong>Enter bill string</strong>
+            <textarea name="name" rows="10" cols="40" class="billString"></textarea>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="calculate-bill.js"></script>
+</html>
