@@ -43,15 +43,6 @@ billTotalSpanElement.classList.remove("warning");
        billTotalSpanElement.classList.add("warning");
     
 
-
-
-
-
-
-
-
-
-
 } 
 
 
@@ -66,21 +57,10 @@ var billString = billStringTotalElement.value;
   const roundedBillTotal = totalPhoneBill(billString);
 
 
-
-
-
-
 billTotalElement.innerHTML = roundedBillTotal;  
 styleTotalColor(roundedBillTotal);
 
     billTotalElement.innerHTML = roundedBillTotal;
-
-
-
-
-
-
-
 
 };
 
